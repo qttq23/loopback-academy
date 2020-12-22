@@ -2,5 +2,16 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongodbDs": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://general:general@cluster0.imwao.azure.mongodb.net/academyDemo?authSource=admin&replicaSet=atlas-hewoo3-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true",
+    "database": "",
+    "password": "",
+    "name": "mongodbDs",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }
