@@ -8,11 +8,17 @@
   "properties": {
     "accountId": {
       "type": "string",
-      "required": true
+      "required": true,
+      "mongodb": {
+        "dataType": "ObjectId"
+      }
     },
     "courseId": {
       "type": "string",
-      "required": true
+      "required": true,
+      "mongodb": {
+        "dataType": "ObjectId"
+      }
     }
   },
   "validations": [],

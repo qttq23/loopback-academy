@@ -16,11 +16,20 @@
     },
     "categoryId": {
       "type": "string",
-      "required": true
+      "required": true,
+      "mongodb": {
+        "dataType": "ObjectId"
+      }
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "category": {
+      "type": "belongsTo",
+      "model": "category",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

@@ -16,7 +16,14 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "courses": {
+      "type": "hasMany",
+      "model": "course",
+      "foreignKey": "",
+      "through": "accountCourse"
+    }
+  },
   "acls": [],
   "methods": {}
 }
