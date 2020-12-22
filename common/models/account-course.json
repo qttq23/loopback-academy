@@ -1,0 +1,22 @@
+{
+  "name": "accountCourse",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "accountId": {
+      "type": "string",
+      "required": true
+    },
+    "courseId": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

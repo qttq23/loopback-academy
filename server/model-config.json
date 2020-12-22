@@ -34,5 +34,21 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "category": {
+    "dataSource": "mongodbDs",
+    "public": true
+  },
+  "course": {
+    "dataSource": "mongodbDs",
+    "public": true
+  },
+  "account": {
+    "dataSource": "mongodbDs",
+    "public": true
+  },
+  "accountCourse": {
+    "dataSource": "mongodbDs",
+    "public": true
   }
 }
