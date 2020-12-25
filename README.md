@@ -209,7 +209,7 @@ Account.disableRemoteMethodByName('deleteById');
 ```
 
 8. validate data
-course.json:
+course.js:
 ```
 Course.validatesLengthOf('name', { min: 5, max: 20 });
 ```
